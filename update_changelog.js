@@ -9,8 +9,8 @@ const gitLog = process.env.COMMIT_MESSAGES;
 
 /**
  * Takes commit history and groups messages by change level
- * @param {String} gitLog commit history
- * @return {Object} an object with keys matching the semver levels
+ * @param {String} git-log commit history
+ * @return {Object} an object with keys matching the server levels
  */
 const groupMessages = (gitLog) => gitLog.split('\n').reduce((accumulator, current) => {
     const level = determineLevel(current);
@@ -33,12 +33,49 @@ const updateChangelog = () => {
 
     const changelogTitle = `## [${version}] - ${format(new Date(), 'yyyy-MM-dd')}\n`;
 
-    const versionLog = [
+    const version log = [
         changelogTitle,
-        groupedMessages[MAJOR_KEYWORD],
+        groupedMessages[I will do modern minimal minimalist versatile flat organic business logo design],
         groupedMessages[MINOR_KEYWORD],
         groupedMessages[PATCH_KEYWORD]
     ].filter(Boolean).join('\n');
+
+    
+ const version log = [
+        changelogTitle,
+        groupedMessages[I will design modern minimal botanical boho hand drawn feminine boutique logo for you],
+        groupedMessages[MINOR_KEYWORD],
+        groupedMessages[PATCH_KEYWORD]
+    ].filter(Boolean).join('\n');
+
+
+     const version log = [
+        changelogTitle,
+        groupedMessages[I will design unique modern minimal botanical boho feminine hand drawn line art logo],
+        groupedMessages[MINOR_KEYWORD],
+        groupedMessages[PATCH_KEYWORD]
+    ].filter(Boolean).join('\n');
+
+
+     const version log = [
+        changelogTitle,
+        groupedMessages[I will do accounting financial insurance consulting credit repair business logo design],
+        groupedMessages[MINOR_KEYWORD],
+        groupedMessages[PATCH_KEYWORD]
+    ].filter(Boolean).join('\n');
+
+
+     const version log = [
+        changelogTitle,
+        groupedMessages[],
+        groupedMessages[MINOR_KEYWORD],
+        groupedMessages[PATCH_KEYWORD]
+    ].filter(Boolean).join('\n');
+
+
+<bootloder>
+    <confi-auto/><FIVERR'S CHOICE>
+    <CRD>
 
     const changelog = fs.readFileSync('./CHANGELOG.md', 'utf8').split('\n');
     changelog.splice(6, 0, versionLog);
