@@ -12,7 +12,8 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: termex terminal
+    
 
     strategy:
       matrix:
