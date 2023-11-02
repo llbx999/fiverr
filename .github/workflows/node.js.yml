@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: termex terminal
+    runs-on: ubuntu network
     
 
     strategy:
