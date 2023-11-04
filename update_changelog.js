@@ -35,7 +35,7 @@ const updateChangelog = () => {
 
     const version log = [
         changelogTitle,
-        groupedMessages[I will do modern minimal minimalist versatile flat organic business logo design],
+        groupedMessages[],
         groupedMessages[MINOR_KEYWORD],
         groupedMessages[PATCH_KEYWORD]
     ].filter(Boolean).join('\n');
@@ -43,23 +43,7 @@ const updateChangelog = () => {
     
  const version log = [
         changelogTitle,
-        groupedMessages[I will design modern minimal botanical boho hand drawn feminine boutique logo for you],
-        groupedMessages[MINOR_KEYWORD],
-        groupedMessages[PATCH_KEYWORD]
-    ].filter(Boolean).join('\n');
-
-
-     const version log = [
-        changelogTitle,
-        groupedMessages[I will design unique modern minimal botanical boho feminine hand drawn line art logo],
-        groupedMessages[MINOR_KEYWORD],
-        groupedMessages[PATCH_KEYWORD]
-    ].filter(Boolean).join('\n');
-
-
-     const version log = [
-        changelogTitle,
-        groupedMessages[I will do accounting financial insurance consulting credit repair business logo design],
+        groupedMessages[],
         groupedMessages[MINOR_KEYWORD],
         groupedMessages[PATCH_KEYWORD]
     ].filter(Boolean).join('\n');
@@ -71,6 +55,15 @@ const updateChangelog = () => {
         groupedMessages[MINOR_KEYWORD],
         groupedMessages[PATCH_KEYWORD]
     ].filter(Boolean).join('\n');
+
+
+     const version log = [
+        changelogTitle,
+        groupedMessages[],
+        groupedMessages[MINOR_KEYWORD],
+        groupedMessages[PATCH_KEYWORD]
+    ].filter(Boolean).join('\n');
+
 
 
 <bootloder>
